@@ -73,7 +73,7 @@ async function readFile(filePath: string) {
         {
             for (let j = 0; j < langStrings[i].length; j++)
             {   
-                // TODO: Change this column to the the lanaguge column
+                // TODO: Change this column to the lanaguge column
                 const langString = langStrings[i][j];
                 addRow(langString, languageRows);
             }
